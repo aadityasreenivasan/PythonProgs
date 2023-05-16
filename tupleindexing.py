@@ -1,3 +1,5 @@
+#Here are some of the reknowned albums of the early times 
+#In this program we use a list of tuples containing another list of tuples.
 albums = [
     ("Welcome to my Nightmare", "Alice Cooper", 1975,
      [
