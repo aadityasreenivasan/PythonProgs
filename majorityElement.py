@@ -1,5 +1,9 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        """
+        return majority element from a list
+        param: nums-list of integers
+        """
         res= None
         c=0
 
