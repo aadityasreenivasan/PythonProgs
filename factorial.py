@@ -1,4 +1,7 @@
-def fact(n):
+def fact(n: int) -> int:
+    """
+    returns factorial of numbers within a range 
+    """
     print('enter number to find factorial\n')
     factorial=1
     if n<0:
