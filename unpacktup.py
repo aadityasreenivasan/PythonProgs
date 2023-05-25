@@ -1,3 +1,4 @@
+#List albums containing tuples of lists of tuples
 albums = [("clb", "Drake", 2021,
            [
                    (1, "No friends"),
@@ -12,9 +13,16 @@ albums = [("clb", "Drake", 2021,
                (3,"Out of time"),
            ]
            ),
+           ("Meet The Woo","Pop Smoke",2020,
+           [
+               (1,"Invincible"),
+               (2,"Shake The Room"),
+               (3,"Christopher Walking"),
+           ]
+           ),
 ]
 
-
+#for loop to display items in the List Albums
 for name, artist, year, songs in albums:
         print("name: {}, artist: {}, year: {}, songs: {}"
               .format(name, artist, year, songs))
