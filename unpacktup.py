@@ -20,6 +20,15 @@ albums = [("clb", "Drake", 2021,
                (3,"Christopher Walking"),
            ]
            ),
+           ("Birds In The Trap Sing McKnight","Travis Scott",2016,
+           [
+               (1,"sdp interlude"),
+               (2,"outside"),
+               (3,"Goosebumps"),
+               (4,"pick up thr phone"),
+               (5,"beibs in the trap"),
+           ]
+           ),
 ]
 
 #for loop to display items in the List Albums
