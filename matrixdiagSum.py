@@ -1,5 +1,12 @@
 class Solution:
     def diagonalSum(self, mat: List[List[int]]) -> int:
+        """
+        returns sum of of diagonals in a matrix:
+        [x][][x]
+        [][x][]
+        [x][][x]
+        
+        """
         l=len(mat)
         if l==1: return mat[0][0]
 
