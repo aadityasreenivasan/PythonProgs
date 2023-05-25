@@ -5,7 +5,7 @@ class Solution:
         [x][][x]
         [][x][]
         [x][][x]
-        
+        param: mat- 2D matrix
         """
         l=len(mat)
         if l==1: return mat[0][0]
