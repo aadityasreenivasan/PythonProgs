@@ -1,14 +1,14 @@
-def fibo(x):
-    if 0<=x<=1:
-        return x
-    else:
-        xmin1, xmin2=1,0
-        res=0
-        for i in range(x-1):
-            res=xmin1+xmin2
-            xmin2=xmin1
-            xmin1=res
-    return res
+def fizbuzz():
+    for fbz in range(50):
+        if fbz%3==0 and fbz%5==0:
+            print("FizzBuzz")
+            continue
 
-for i in range(36):
-    print(i,fibo(i))
+        elif fbz%3==0:
+            print("Fizz")
+            continue
+
+        elif fbz%5==0:
+            print("Buzz")
+            continue
+        print(fbz)
