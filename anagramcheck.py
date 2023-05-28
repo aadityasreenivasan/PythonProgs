@@ -2,8 +2,8 @@ def anagramCheck(str1, str2):
     """
     anagram is a  word, phrase, or name formed by rearranging the letters of another, such as spar, formed from rasp.
     The function checks if the provided strings are anagrams or not.
-    param: str1
-    param:
+    param: str1- first user input string
+    param: str2- second user input string
     """
     if (sorted(str1) == sorted(str2)) :  
         return True 
