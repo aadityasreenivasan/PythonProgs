@@ -1,19 +1,14 @@
-def fizbuzz(n: int):
-    """
-    param: n- integer until fiuzzbuzz game will run
-    """
-    #taking numbers starting from 0 to n
-    for fbz in range(n+1):
+class Solution:
+    def fizzBuzz(self, n: int) -> List[str]:
+        answer=[]
+        for i in range(1,n+1): 
+            if i%3==0 and i%5==0:
+                answer.append("FizzBuzz")
+            elif i%3==0:
+                answer.append("Fizz")
+            elif i%5==0:
+                answer.append("Buzz")
+            else:
+                answer.append(str(i))
 
-        if fbz%3==0 and fbz%5==0:
-            print("FizzBuzz")
-            continue
-
-        elif fbz%3==0:
-            print("Fizz")
-            continue
-
-        elif fbz%5==0:
-            print("Buzz")
-            continue
-        print(fbz)
+        return answer
