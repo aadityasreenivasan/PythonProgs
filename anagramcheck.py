@@ -15,3 +15,5 @@ if anagramCheck(str1,str2):
     print("Anagram")
 else:
     print("Not an anagram")
+
+ 
