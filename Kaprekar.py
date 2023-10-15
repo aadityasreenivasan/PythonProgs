@@ -1,3 +1,11 @@
+"""
+In mathematics, a natural number in a given number base is a 
+
+p-Kaprekar number if the representation of its square in that base can be split into two parts, where the second part has 
+
+p digits, that add up to the original number.
+"""
+
 def print_Kaprekar_nums(start, end):  
    for i in range(start, end ):  
       sqr = i ** 2  
