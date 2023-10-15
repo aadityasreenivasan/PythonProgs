@@ -1,3 +1,6 @@
+"""
+Program to check whether the input integer is prime or not.
+"""
 a=int(input('Enter a number\n'))
 flag= False
 if a>1:
