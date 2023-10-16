@@ -9,7 +9,8 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
         prev=1
 
         for i in range(1, rowIndex+1):
-            next= prev*(rowIndex-i+1)//i
+            #formula to calculate next element of ith row of pascal's triangle 
+            next= prev*(rowIndex-i+1)//i 
             row.append(next)
             prev=next
         
